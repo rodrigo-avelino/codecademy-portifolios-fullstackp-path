@@ -18,3 +18,18 @@ const mood_do_dia = [
     'vontade de morrer'
 ];
 //funcoes
+const random_prhase = () =>{
+    let randomIndex = Math.floor(Math.random()*frases_do_dia.length);
+    return frases_do_dia[randomIndex];
+};
+const random_mood = () =>{
+    let randomIndex = Math.floor(Math.random()*mood_do_dia.length);
+    return mood_do_dia[randomIndex];
+};
+
+const output = () =>{
+    console.log (`pelas previsoes dos coachs intergalaticamente quanticos voce ainda tem ${Math.floor(Math.random()*100)} anos de azar`);
+    console.log (`frase do dia:${random_prhase()}`);
+    console.log (`mood do dia: ${random_mood()}`);
+};
+output()
