@@ -12,7 +12,7 @@ const frases_do_dia = [
 const mood_do_dia = [
     'suicidio',
     'rejeicao amorosa',
-    'deprpessao',
+    'depressao',
     'fracasso profissional',
     'desespero',
     'vontade de morrer'
