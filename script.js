@@ -1,21 +1,21 @@
 //bibliotecas de frases
 const frases_do_dia = [
-    'com ou sem luta, sempre ha derrota',
-    'calma, voce ainda tem muito a perder',
-    'quando te falarem que nao vai da certo, acredite',
-    'na vida sempre  e tudo ou nada. tudo dando errado ou nada dando certo',
-    'dias ruins se passam para que piores possam vir',
-    'nunca foi azar, sempre foi incompetencia',
-    'depois da tempestade vem o lamacal',
-    'ate o cheque e espepcial e voce nao'
+    'Com ou sem luta, sempre há derrota',
+    'Calma, você ainda tem muito a perder',
+    'Quando te falarem que não vai dar certo, acredite',
+    'Na vida sempre é tudo ou nada. Tudo dando errado ou nada dando certo',
+    'Dias ruins se passam para que piores possam vir',
+    'Nunca foi azar, sempre foi incompetência',
+    'Depois da tempestade vem o lamaçal',
+    'até o cheque é espepcial e você não'
 ];
 const mood_do_dia = [
-    'suicidio',
-    'rejeicao amorosa',
-    'depressao',
-    'fracasso profissional',
-    'desespero',
-    'vontade de morrer'
+    'Suicídio',
+    'Rejeição amorosa',
+    'Depressão',
+    'Fracasso profissional',
+    'Desespero',
+    'Vontade de morrer'
 ];
 //funcoes
 const random_prhase = () =>{
@@ -28,8 +28,8 @@ const random_mood = () =>{
 };
 
 const output = () =>{
-    console.log (`pelas previsoes dos coachs intergalaticamente quanticos voce ainda tem ${Math.floor(Math.random()*100)} anos de azar`);
-    console.log (`frase do dia: ${random_prhase()}`);
-    console.log (`mood do dia: ${random_mood()}`);
+    console.log (`Pelas previsões dos coachs intergalaticamente quânticos você ainda tem ${Math.floor(Math.random()*100)} anos de azar.`);
+    console.log (`Frase do dia: ${random_prhase()}.`);
+    console.log (`Mood do dia: ${random_mood()}.`);
 };
 output()
