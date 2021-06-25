@@ -29,7 +29,7 @@ const random_mood = () =>{
 
 const output = () =>{
     console.log (`pelas previsoes dos coachs intergalaticamente quanticos voce ainda tem ${Math.floor(Math.random()*100)} anos de azar`);
-    console.log (`frase do dia:${random_prhase()}`);
+    console.log (`frase do dia: ${random_prhase()}`);
     console.log (`mood do dia: ${random_mood()}`);
 };
 output()
