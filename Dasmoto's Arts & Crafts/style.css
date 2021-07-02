@@ -6,3 +6,15 @@ header{
     text-align: center;
     background-image: url('./images/pattern.webp');
 }
+#brushes h2{
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    background-color: mediumspringgreen;
+}
+#brushes u{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
